@@ -1,1 +1,16 @@
 
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: system-ui, 'Helevetica Neue', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
