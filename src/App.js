@@ -1,13 +1,8 @@
 import './App.css';
-import Name from './components/Name';
+import Paint from './components/Paint';
 
 function App() {
-  return (
-    <div>
-      <h1>Hooked To Paint</h1>
-      <Name />
-    </div>
-  );
+  return <Paint />;
 }
 
 export default App;
