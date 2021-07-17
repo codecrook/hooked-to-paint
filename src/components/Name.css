@@ -1,0 +1,21 @@
+.header-name {
+  flex: 1;
+}
+.header-name input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 5px;
+  border-bottom: 1px solid transparent;
+}
+.header-name input:hover, .header-name input:focus {
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+.header-name input:not(:focus) {
+  cursor: pointer;
+}
