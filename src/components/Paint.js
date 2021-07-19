@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Paint.css';
+import randomColor from 'randomcolor';
 import Name from './Name';
 import ColorPicker from './ColorPicker';
-import randomColor from 'randomcolor';
+import WindowSize from './WindowSize';
 
 
 function Paint() {
@@ -33,6 +34,7 @@ function Paint() {
                     setActiveColor={setActiveColor}
                 />
             </div>
+            <WindowSize />
         </header>
     );
 }
