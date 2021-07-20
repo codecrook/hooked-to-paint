@@ -16,4 +16,4 @@ function Name() {
     );
 }
 
-export default Name;
+export default React.memo(Name);
